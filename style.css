@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+}
+
+#fisrt div {
+    color: rgb(216, 14, 14);
+
+}
+
+.red {
+    color: rgb(99, 44, 170);
+
+}
+
+* {
+    margin: 1;
+    padding: 1;
+}
+
+div p {
+    color: rgb(216, 14, 14);
+    font-size: 20px;
+}
+
+a:visited {
+    color: rgb(196, 39, 39);
+}
+
+a:link {
+    color: rgb(216, 14, 14);
+}
+
+a :active {
+    background-color: seagreen;
+}
+
+a:hover {
+    background-color: rgb(163, 46, 187);
+}
+
