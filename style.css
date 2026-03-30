@@ -101,11 +101,11 @@ header {
 }
 
 .card {
-    background-color: white;
+    background-color: rgb(147, 72, 72);
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(11, 3, 3, 0.1);
     transition: 0.3s;
 }
 
@@ -116,6 +116,18 @@ header {
 .card img {
     width: 100%;
     transition: 0.3s;
+}
+img {
+    animation: rotate 15s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
 }
 
 .card:hover img {
