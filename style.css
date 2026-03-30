@@ -145,7 +145,7 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: var(--primary);
-    color: white;
+    color: rgb(226, 217, 232);
     margin-top: 2rem;
 }
 
