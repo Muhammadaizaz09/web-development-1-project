@@ -1,59 +1,94 @@
+</html>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content=" This is my first website, where I will showcase my portfolio and skills in web development.">
-    <title>Aizaz first website </title>
+    <title>Shoe Store</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <h1> MY FIRST WEBSITE </h1>
-    <h2> MY portfolio </h2>
-    <h3> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit consectetur delectus odio culpa dolorem minus aut
-        maiores vero enim tenetur esse aspernatur, rerum dolores nobis nisi repellat molestias ratione, blanditiis ut
-        libero adipisci ipsa quos dolore voluptatibus! Cumque itaque magni quis, aliquid atque quasi perferendis eum
-        veniam ipsa facilis doloribus consectetur nobis vero quod aspernatur aliquam laboriosam? Veniam, nemo qui sunt
-        atque commodi amet aperiam hic. Modi neque nulla temporibus laborum voluptas explicabo at nihil corrupti eveniet
-        reprehenderit voluptatum corporis quos reiciendis, voluptatem eligendi fugiat, amet rerum impedit, velit
-        assumenda natus. Adipisci harum iste et repudiandae tempora quibusdam nostrum numquam.</h3>
-    <ul>
-        <li>html></li>
-        <li>css</li>
-        <li>javascript</li>
-    </ul>
-    <ol>
-        <li>html></li>
-        <li>css</li>
-        <li>javascript</li>
-    </ol type="a">
-    <table border="1">
-        <thead>
-            <tr>
-                <th> name </th>
-                <th> age </th>
-                <th> city </th>
-            </tr>
-        </thead>
-        <caption> my table </caption>
-        <tr>
-            <th> name </th>
-            <th> age </th>
-            <th> city </th>
-        </tr>
-        <tr>
-            <td> aizaz </td>
-            <td> 16 </td>
-            <td> karachi </td>
-        </tr>
 
-        <a target="_blank" href="https://www.google.com"> open google </a>
+    <header>
+        <h1>STEP INTO STYLE</h1>
+        <h5>ELEGANCE IS ALL YOU NEED</h5>
+        <p>Your one-stop shop for trendy shoes</p>
+    </header>
 
-        <script src="script.js"></script>
+    <nav class="navbar">
+        <div class="logo">Shoes</div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div>🛒</div>
+    </nav>
+
+    <section class="hero">
+        <h1>Find Your Perfect Pair</h1>
+        <p>Explore our latest collection</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section class="categories">
+        <div>Running</div>
+        <div>Casual</div>
+        <div>Formal</div>
+        <div>Sports</div>
+        <div>Kids</div>
+    </section>
+
+    <section class="products">
+        <div class="card">
+            <img src="casual-removebg-preview copy.png" alt="Running Shoes">
+            <h3>Running Shoes</h3>
+            <p>$59.99</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="casual-removebg-preview.png" alt="Casual Sneakers">
+            <h3>Casual Sneakers</h3>
+            <p>$49.99</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="yesisatwo.png" alt="Formal Shoes">
+            <h3>Formal Shoes</h3>
+            <p>$79.99</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="sports-removebg-preview.png" alt="Sports Shoes">
+            <h3>Sports Shoes</h3>
+            <p>$69.99</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </section>
+
+    <p id="msg"></p>
+
+    <footer>
+        <p>&copy; 2026 Step Into Style. All rights reserved.</p>
+        <p>Contact: aizaz@example.com</p>
+    </footer>
+
+    <script>
+        function addToCart() {
+            document.getElementById("msg").innerText = "Added to cart!";
+        }
+    </script>
+
+
 </body>
 
 </html>
